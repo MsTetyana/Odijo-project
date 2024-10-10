@@ -10,7 +10,6 @@
 }());
 
 // Burger handler
-
 (function () {
     const burgerItem = document.querySelector('.burger');
     const menu = document.querySelector('.header__nav');
@@ -22,3 +21,4 @@
         menu.classList.remove('header__nav_active');
     })
 }());
+
